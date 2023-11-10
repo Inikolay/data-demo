@@ -1,0 +1,14 @@
+server:
+  port: 8000
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cloud_vendor
+    username: postgres
+    password: nikolay
+
+logging:
+  level:
+    org:
+      springframework:
+        web: TRACE
+
